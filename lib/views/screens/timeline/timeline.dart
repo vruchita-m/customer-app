@@ -119,7 +119,7 @@ class _TimelineCustomState extends State<TimelineCustom> {
     // Show a loading indicator while data is being fetched
     if (_isLoading) {
       return Scaffold(
-        // appBar: AppBar(title: const Text("Timeline")),
+        appBar: AppBar(title: const Text("Timeline"),centerTitle: true,),
         body: const Center(child: CircularProgressIndicator()),
       );
     }

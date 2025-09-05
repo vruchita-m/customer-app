@@ -455,7 +455,7 @@ class _EstimateScreenState extends State<EstimateScreen> {
                                     color: AppColors.lightblackcol.withOpacity(0.8),
                                   ),
 
-                                  const SizedBox(height: 5),
+                                  const SizedBox(height: 7),
 
                                   // Second line - value
                                   InterText(
@@ -466,7 +466,7 @@ class _EstimateScreenState extends State<EstimateScreen> {
                                     color: AppColors.lightblackcol,
                                   ),
 
-                                  const SizedBox(height: 5),
+                                  const SizedBox(height: 7),
 
                                   // Third line - extra info
                                   InterText(
@@ -523,13 +523,11 @@ class _EstimateScreenState extends State<EstimateScreen> {
                         },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: AppColors.primarycol, // Dark background
-                          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(30),
-                          ),
+                          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 0),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30),),
                         ),
                         child: Padding(
-                          padding: const EdgeInsets.all(1),
+                          padding: const EdgeInsets.all(0),
                           child: Center( // Centers content horizontally & vertically
                           child: FittedBox(
                           fit: BoxFit.scaleDown,  // makes text shrink if needed
@@ -537,9 +535,7 @@ class _EstimateScreenState extends State<EstimateScreen> {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 // Last Stage Circle
-                                Container(
-                                  width: 10,
-                                  height: 10,
+                                Container(width: 10, height: 10,
                                   decoration: BoxDecoration(
                                     color: Colors.green, // Completed stage
                                     shape: BoxShape.circle,
@@ -557,7 +553,6 @@ class _EstimateScreenState extends State<EstimateScreen> {
                                     softWrap: true, // Allows line break
                                     overflow: TextOverflow.visible, // Prevents clipping
                                     textAlign: TextAlign.center,
-
                                   ),
                                 ),
 
