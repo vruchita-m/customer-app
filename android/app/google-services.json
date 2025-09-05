@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "346323690985",
+    "project_id": "service-mitra-ec68a",
+    "storage_bucket": "service-mitra-ec68a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346323690985:android:a39e6a8475b67ec01e5778",
+        "android_client_info": {
+          "package_name": "com.customer_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbkm0qzzzGKipBrLv5QUPvR5UvRUrMIbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346323690985:android:e03ae3f6da12941c1e5778",
+        "android_client_info": {
+          "package_name": "com.example.mechanic_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbkm0qzzzGKipBrLv5QUPvR5UvRUrMIbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
